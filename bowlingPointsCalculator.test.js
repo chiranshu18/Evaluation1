@@ -1,0 +1,1 @@
+const getBowlingPoints = require('/.bowlingPointsCalculator')
