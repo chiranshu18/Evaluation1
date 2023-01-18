@@ -1,16 +1,16 @@
 function getBowlingPoints(input){
     let score = 0
-    for(let i=0; i<19; i+2){
+    for(let i=0; i<input.length-1; i=i+2){
         if(input[i] == 10){
-            score += 10 + input[i+1] + input[i+2]
+            score = score + 10 + input[i+1] + input[i+2]
         }
 
         else if(input[i]+input[i+1] == 10){
-            score += 10 + input[i+1]
+            score = score + 10 + input[i+1]
         }
 
         else{
-            score += input[i] + input[i+1]
+            score = score + input[i] + input[i+1]
         }
         
     }
