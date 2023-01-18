@@ -1,0 +1,23 @@
+{
+  "name": "evaluation1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bowlingPointsCalculator.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chiranshu18/Evaluation1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chiranshu18/Evaluation1/issues"
+  },
+  "homepage": "https://github.com/chiranshu18/Evaluation1#readme",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}
